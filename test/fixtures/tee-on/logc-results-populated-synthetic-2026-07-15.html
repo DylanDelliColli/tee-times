@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><title>Tee-On Golf Systems Inc. - Book a Tee Time</title></head>
+<body>
+<!-- SYNTHETIC populated results fixture. PROVENANCE: the only real LOGC
+     results page we captured (logc-results-2026-07-15.html) was an EMPTY sheet
+     ("No more times available"), so no real populated fixture exists yet. These
+     rows are constructed from the page's OWN real per-slot contract:
+       showLogin(courseCode, nineCode, date, time, holes, isSpecial,
+                 cartsMandatory, timeId, shotgunId)
+     which is the actual JS handler defined in the real fixture. This exercises
+     the parser's row-extraction mechanics; it is NOT a substitute for a real
+     capture. See follow-up bead to replace with a genuine populated page and to
+     confirm the real spots-available markup. -->
+<form id="form" name="form" action="com.teeon.teesheet.servlets.golfersection.WebBookingSearchResults" method="post">
+  <input type="hidden" name="CourseIdLOGC" value="LOGC"/>
+  <input type="hidden" name="CourseGroupID" value="10880"/>
+</form>
+<div class="search-results-course">Lowville Golf Club</div>
+<div class="search-results-tee-times-wrapper even">
+
+  <div class="search-results-tee-time clickable"
+       onclick="showLogin('LOGC','1','2026-07-15','7:30 am','18',false,false,'100234','')">
+    <span class="tee-time-time">7:30 am</span>
+    <span class="tee-time-holes">18 Holes</span>
+    <span class="tee-time-available">4 available</span>
+  </div>
+
+  <div class="search-results-tee-time clickable"
+       onclick="showLogin('LOGC','1','2026-07-15','7:40 am','18',false,false,'100235','')">
+    <span class="tee-time-time">7:40 am</span>
+    <span class="tee-time-holes">18 Holes</span>
+    <span class="tee-time-available">3 available</span>
+  </div>
+
+  <div class="search-results-tee-time clickable"
+       onclick="showLogin('LOGC','1','2026-07-15','8:00 am','18',false,false,'100236','')">
+    <span class="tee-time-time">8:00 am</span>
+    <span class="tee-time-holes">18 Holes</span>
+    <span class="tee-time-available">2 available</span>
+  </div>
+
+  <div class="search-results-tee-time clickable"
+       onclick="showLogin('LOGC','1','2026-07-15','12:00 pm','18',false,false,'100237','')">
+    <span class="tee-time-time">12:00 pm</span>
+    <span class="tee-time-holes">18 Holes</span>
+    <span class="tee-time-available">4 available</span>
+  </div>
+
+  <div class="search-results-tee-time clickable"
+       onclick="showLogin('LOGC','2','2026-07-15','2:30 pm','9',false,false,'100238','')">
+    <span class="tee-time-time">2:30 pm</span>
+    <span class="tee-time-holes">9 Holes</span>
+    <span class="tee-time-available">1 available</span>
+  </div>
+
+  <br class="clearboth"/>
+</div>
+</body>
+</html>
