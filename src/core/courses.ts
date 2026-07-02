@@ -88,8 +88,9 @@ export const COURSES: CourseEntry[] = [
     courseRef: {
       backend: "ezlinks",
       subdomain: "lakeviewgc",
-      // TODO(tee-times-r5h): confirm facilityId for Lakeview (ezlinks) — unknown at registry time.
-      facilityId: TODO_UNKNOWN,
+      // facilityId intentionally omitted (tee-times-3rj): EZLinks is
+      // deep-link-only and facilityId is unused by any live code path — see
+      // EzlinksRef in core/adapter.ts and src/adapters/ezlinks.ts.
     },
     // tee-times-z4v.5 finding: the EZLinks subdomain LANDING page is the real,
     // course-specific booking page (each subdomain serves exactly one
@@ -109,8 +110,7 @@ export const COURSES: CourseEntry[] = [
     courseRef: {
       backend: "ezlinks",
       subdomain: "braeben",
-      // TODO(tee-times-r5h): confirm facilityId for BraeBen (ezlinks) — unknown at registry time.
-      facilityId: TODO_UNKNOWN,
+      // facilityId intentionally omitted (tee-times-3rj): see Lakeview above.
     },
     // Same tee-times-z4v.5 finding as Lakeview above: subdomain root is the
     // real per-course landing; direct anonymous GET also 403s (Cloudflare),

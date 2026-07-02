@@ -94,14 +94,18 @@ describe("COURSES registry", () => {
       }
     });
 
-    it("ezlinks refs carry subdomain + facilityId", () => {
+    // tee-times-3rj: facilityId is OPTIONAL and intentionally omitted for
+    // both EZLinks entries — EZLinks is formalized deep-link-only and never
+    // live-scraped, so no code path ever reads facilityId (see
+    // EzlinksRef in src/core/adapter.ts and src/adapters/ezlinks.ts).
+    it("ezlinks refs carry subdomain, and intentionally omit the unused facilityId", () => {
       const ezlinksCourses = byBackend("ezlinks");
       expect(ezlinksCourses.length).toBe(2);
       for (const c of ezlinksCourses) {
         const ref = c.courseRef as EzlinksRef;
         expect(typeof ref.subdomain).toBe("string");
         expect(ref.subdomain.length).toBeGreaterThan(0);
-        expect(typeof ref.facilityId).toBe("string");
+        expect(ref.facilityId).toBeUndefined();
       }
     });
 
