@@ -1,0 +1,22 @@
+{
+  "name": "tee-times",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Personal golf tee-time metasearch and slot watcher",
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.10.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
