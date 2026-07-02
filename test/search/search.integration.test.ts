@@ -143,6 +143,13 @@ describe("search (integration, real file-backed SqliteAvailabilityStore)", () =>
     expect(byId.lowville?.deepLinkUrl).toBeUndefined();
     expect(byId.granite?.deepLinkUrl).toBeUndefined();
 
+    // fetchedAt (tee-times-npr staleness-age support): populated for
+    // healthy/stale (real store-backed data), absent for deep-link-only
+    // (no store data exists at all for that course).
+    expect(byId.lowville?.fetchedAt).toBe(NOW);
+    expect(byId.granite?.fetchedAt).toBe(NOW - TTL_MS - 1);
+    expect(byId.lakeview?.fetchedAt).toBeUndefined();
+
     // Stale and healthy courses both still surface their real slots (never dropped).
     expect(result.slots.map((s) => s.courseId).sort()).toEqual(["granite", "lowville"]);
   });

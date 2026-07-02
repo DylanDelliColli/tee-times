@@ -72,6 +72,16 @@ export interface CourseStatus {
   state: CourseState;
   /** Present when state is "deep-link-only": a link to the course's own booking page. */
   deepLinkUrl?: string;
+  /**
+   * Epoch-ms of the OLDEST snapshot read across the resolved date scope, for
+   * "healthy" and "stale" states only (undefined for "deep-link-only", which
+   * has no store data at all). Added backward-compatibly (tee-times-npr) so
+   * the UI can render a staleness age ("~N min old") without re-deriving it
+   * from the store itself. Using the oldest (not newest) fetchedAt when a
+   * multi-date query spans several snapshots is the conservative choice: it
+   * reflects the age of the stalest data actually surfaced for this course.
+   */
+  fetchedAt?: number;
 }
 
 /** A course-local time-of-day window that should rank higher in results (e.g. "after work" tee times). */
@@ -130,7 +140,7 @@ export function search(query: SearchQuery, store: AvailabilityStore, opts: Searc
     }
 
     try {
-      const { anyResult, anyStale, courseSlots } = readCourseSlots(store, entry.courseId, dates);
+      const { anyResult, anyStale, courseSlots, oldestFetchedAt } = readCourseSlots(store, entry.courseId, dates);
 
       if (!anyResult) {
         // Never polled / nothing stored for any date in scope -> deep-link-only.
@@ -147,6 +157,7 @@ export function search(query: SearchQuery, store: AvailabilityStore, opts: Searc
         courseId: entry.courseId,
         displayName: entry.displayName,
         state: anyStale ? "stale" : "healthy",
+        fetchedAt: oldestFetchedAt,
       });
     } catch {
       // A3 isolation: one course's unexpected store failure must never sink
@@ -166,9 +177,10 @@ function readCourseSlots(
   store: AvailabilityStore,
   courseId: string,
   dates: readonly string[],
-): { anyResult: boolean; anyStale: boolean; courseSlots: Slot[] } {
+): { anyResult: boolean; anyStale: boolean; courseSlots: Slot[]; oldestFetchedAt?: number } {
   let anyResult = false;
   let anyStale = false;
+  let oldestFetchedAt: number | undefined;
   const courseSlots: Slot[] = [];
 
   for (const date of dates) {
@@ -180,10 +192,13 @@ function readCourseSlots(
     if (result.stale) {
       anyStale = true;
     }
+    if (oldestFetchedAt === undefined || result.fetchedAt < oldestFetchedAt) {
+      oldestFetchedAt = result.fetchedAt;
+    }
     courseSlots.push(...result.slots);
   }
 
-  return { anyResult, anyStale, courseSlots };
+  return { anyResult, anyStale, courseSlots, oldestFetchedAt };
 }
 
 function passesFilters(slot: Slot, query: SearchQuery): boolean {
