@@ -13,3 +13,11 @@ dist/
 # Transient tooling artifacts (browser snapshots, codex session)
 .playwright-mcp/
 .codex/
+# bd worktree
+wk-slot-model/
+# bd worktree
+wk-clubhouse/
+# bd worktree
+wk-linkline/
+# bd worktree
+wk-chronogolf/
