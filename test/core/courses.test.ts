@@ -36,6 +36,47 @@ describe("COURSES registry", () => {
     }
   });
 
+  // tee-times-ckw: every course must carry a real, well-formed, course-specific
+  // bookingUrl (invariant I3 at the registry level) — search.ts::deepLinkStatus()
+  // reads this field directly instead of guessing a URL from courseRef shape.
+  //
+  // [no-integration]: this is static registry data with no runtime dependency.
+  // Actually verifying each URL resolves live would require network access,
+  // which THE BRIGHT LINE restricts (anonymous-GET-only, back off on
+  // 403/captcha, never defeat a block) and would make CI flaky against
+  // third-party uptime. Each URL below WAS verified by hand at authoring time
+  // (2026-07-02) via a one-off anonymous GET/HEAD of the course's public
+  // booking landing page — see the inline comments in src/core/courses.ts for
+  // per-course verification notes (HTTP 200 for 14/16; the 2 EZLinks courses
+  // 403 due to Cloudflare bot-protection and were instead confirmed genuine
+  // via search-engine indexing, per THE BRIGHT LINE's "back off on 403" rule).
+  it("every course has a non-empty, well-formed (URL-parseable) bookingUrl", () => {
+    for (const c of COURSES) {
+      expect(typeof c.bookingUrl).toBe("string");
+      expect(c.bookingUrl.length).toBeGreaterThan(0);
+      // Throws if not a valid absolute URL.
+      expect(() => new URL(c.bookingUrl)).not.toThrow();
+      expect(new URL(c.bookingUrl).protocol).toBe("https:");
+    }
+  });
+
+  it("each bookingUrl is course-specific, not a generic bare-domain backend landing (invariant I3)", () => {
+    for (const c of COURSES) {
+      const url = new URL(c.bookingUrl);
+      // A bare "https://host/" with no path/query/hash beyond "/" would be a
+      // generic landing page rather than a course-specific deep link. EZLinks
+      // is the one legitimate exception: each subdomain is dedicated to
+      // exactly one facility, so the subdomain root IS the course-specific
+      // page (tee-times-z4v.5 finding — no facilityId needed in the URL).
+      if (c.backend === "ezlinks") {
+        expect(url.hostname).toBe(`${(c.courseRef as { subdomain: string }).subdomain}.ezlinksgolf.com`);
+        continue;
+      }
+      const isBareRoot = (url.pathname === "/" || url.pathname === "") && url.search === "";
+      expect(isBareRoot).toBe(false);
+    }
+  });
+
   describe("courseRef shape per backend (discriminated union validation)", () => {
     function byBackend<K extends CourseEntry["backend"]>(backend: K): CourseEntry[] {
       return COURSES.filter((c) => c.backend === backend);

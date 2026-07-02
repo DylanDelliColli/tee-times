@@ -236,38 +236,14 @@ function resolveScopeCourses(courseIds?: string[]): CourseEntry[] {
   return result;
 }
 
-/** Builds a deep-link-only CourseStatus row for a course, deriving its booking-page link from static registry data. */
+/** Builds a deep-link-only CourseStatus row for a course, from the registry's canonical booking-page URL. */
 function deepLinkStatus(entry: CourseEntry): CourseStatus {
   return {
     courseId: entry.courseId,
     displayName: entry.displayName,
     state: "deep-link-only",
-    deepLinkUrl: fallbackDeepLinkUrl(entry),
+    deepLinkUrl: entry.bookingUrl,
   };
-}
-
-/**
- * Constructs a best-effort link to the course's own booking page from its
- * registry courseRef. This is a heuristic derived from static config (no
- * network access) for courses we deliberately never scrape/poll — NOT the
- * canonical booking URL an adapter would normalize onto a live Slot
- * (invariant I3 in core/adapter.ts). See follow-up bead re: promoting this to
- * a first-class `bookingUrl` field on CourseEntry.
- */
-function fallbackDeepLinkUrl(entry: CourseEntry): string {
-  const ref = entry.courseRef;
-  switch (ref.backend) {
-    case "ezlinks":
-      return `https://${ref.subdomain}.ezlinksgolf.com/`;
-    case "tee-on":
-      return `https://www.teeon.com/course/${ref.courseCode}`;
-    case "chronogolf":
-      return `https://www.chronogolf.com/en/club/${ref.clubId}`;
-    case "tei-unify":
-      return `https://${ref.host}/course/${ref.courseId}`;
-    case "clubhouse":
-      return `https://${ref.host}/`;
-  }
 }
 
 /**
