@@ -3,6 +3,13 @@
 node_modules/
 dist/
 
+# Next.js
+web/.next/
+web/next-env.d.ts
+
+# Local sqlite dev DB (default path used by web/app/api/search/route.ts)
+data/
+
 # Beads / Dolt files (added by bd init)
 .dolt/
 *.db

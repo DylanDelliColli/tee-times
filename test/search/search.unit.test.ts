@@ -210,7 +210,7 @@ describe("search (unit, in-memory sqlite store)", () => {
 
       expect(result.slots).toEqual([]);
       expect(result.courses).toEqual([
-        { courseId: "lowville", displayName: expect.any(String), state: "healthy" },
+        { courseId: "lowville", displayName: expect.any(String), state: "healthy", fetchedAt: 1000 },
       ]);
     });
 
@@ -296,6 +296,47 @@ describe("search (unit, in-memory sqlite store)", () => {
     it("throws when neither date nor dateRange is given", () => {
       const store = makeStore();
       expect(() => search({} as SearchQuery, store)).toThrow();
+    });
+  });
+
+  describe("fetchedAt (staleness-age support, tee-times-npr)", () => {
+    it("healthy and stale courses carry fetchedAt from the store snapshot; deep-link-only carries none", () => {
+      const store = makeStore();
+      store.putSnapshot("lowville", "2026-07-15", [makeSlot()], 1234);
+
+      const result = search({ date: "2026-07-15", courseIds: ["lowville", "lakeview"] }, store);
+
+      const lowville = result.courses.find((c) => c.courseId === "lowville");
+      const lakeview = result.courses.find((c) => c.courseId === "lakeview");
+      expect(lowville?.state).toBe("healthy");
+      expect(lowville?.fetchedAt).toBe(1234);
+      expect(lakeview?.state).toBe("deep-link-only");
+      expect(lakeview?.fetchedAt).toBeUndefined();
+    });
+
+    it("across a multi-date dateRange, fetchedAt reflects the OLDEST snapshot in scope (conservative staleness bound)", () => {
+      const store = makeStore();
+      store.putSnapshot("lowville", "2026-07-15", [makeSlot({ date: "2026-07-15" })], 5000);
+      store.putSnapshot("lowville", "2026-07-16", [makeSlot({ date: "2026-07-16" })], 2000);
+
+      const result = search(
+        { dateRange: { start: "2026-07-15", end: "2026-07-16" }, courseIds: ["lowville"] },
+        store,
+      );
+
+      expect(result.courses[0]?.fetchedAt).toBe(2000);
+    });
+
+    it("a stale course also carries fetchedAt, for the UI to compute '~N min old'", () => {
+      const clock = fakeClock(1_000_000);
+      const store = makeStore(60_000, clock.now);
+      store.putSnapshot("lowville", "2026-07-15", [makeSlot({ time: "08:00" })], clock.now());
+      clock.advance(60_001);
+
+      const result = search({ date: "2026-07-15", courseIds: ["lowville"] }, store);
+
+      expect(result.courses[0]?.state).toBe("stale");
+      expect(result.courses[0]?.fetchedAt).toBe(1_000_000);
     });
   });
 });
