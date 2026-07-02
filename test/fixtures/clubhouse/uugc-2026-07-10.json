@@ -1,0 +1,5294 @@
+{
+  "retCode": 0,
+  "title": null,
+  "infoMsg": null,
+  "errorMessage": null,
+  "displayMessage": null,
+  "serverStackTrace": null,
+  "data": {
+    "availability": [],
+    "teeSheet": [
+      {
+        "teeSheetTimeId": 129088532,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 1,
+        "bookingTimeTypeTxt": "Booked",
+        "players": [
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "06:50:00",
+        "timeOfDay": 1,
+        "timeOfDayTxt": "Morning",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088449,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 1,
+        "bookingTimeTypeTxt": "Booked",
+        "players": [
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "07:00:00",
+        "timeOfDay": 1,
+        "timeOfDayTxt": "Morning",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088450,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 1,
+        "bookingTimeTypeTxt": "Booked",
+        "players": [
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "07:10:00",
+        "timeOfDay": 1,
+        "timeOfDayTxt": "Morning",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088451,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 1,
+        "bookingTimeTypeTxt": "Booked",
+        "players": [
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "07:20:00",
+        "timeOfDay": 1,
+        "timeOfDayTxt": "Morning",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088452,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 1,
+        "bookingTimeTypeTxt": "Booked",
+        "players": [
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "07:30:00",
+        "timeOfDay": 1,
+        "timeOfDayTxt": "Morning",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088453,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 1,
+        "bookingTimeTypeTxt": "Booked",
+        "players": [
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "07:40:00",
+        "timeOfDay": 1,
+        "timeOfDayTxt": "Morning",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088454,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": true,
+        "canQuickBook": true,
+        "allowReservations": true,
+        "bookingTimeType": 0,
+        "bookingTimeTypeTxt": "Available",
+        "players": [
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "07:50:00",
+        "timeOfDay": 1,
+        "timeOfDayTxt": "Morning",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 4,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088455,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 1,
+        "bookingTimeTypeTxt": "Booked",
+        "players": [
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "08:00:00",
+        "timeOfDay": 1,
+        "timeOfDayTxt": "Morning",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088456,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 1,
+        "bookingTimeTypeTxt": "Booked",
+        "players": [
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "08:10:00",
+        "timeOfDay": 1,
+        "timeOfDayTxt": "Morning",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088457,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 1,
+        "bookingTimeTypeTxt": "Booked",
+        "players": [
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "08:20:00",
+        "timeOfDay": 1,
+        "timeOfDayTxt": "Morning",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088458,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 1,
+        "bookingTimeTypeTxt": "Booked",
+        "players": [
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "08:30:00",
+        "timeOfDay": 1,
+        "timeOfDayTxt": "Morning",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088459,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 1,
+        "bookingTimeTypeTxt": "Booked",
+        "players": [
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "08:40:00",
+        "timeOfDay": 1,
+        "timeOfDayTxt": "Morning",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088460,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": true,
+        "canQuickBook": true,
+        "allowReservations": true,
+        "bookingTimeType": 0,
+        "bookingTimeTypeTxt": "Available",
+        "players": [
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "08:50:00",
+        "timeOfDay": 1,
+        "timeOfDayTxt": "Morning",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 4,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088461,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 1,
+        "bookingTimeTypeTxt": "Booked",
+        "players": [
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "09:00:00",
+        "timeOfDay": 1,
+        "timeOfDayTxt": "Morning",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088462,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 1,
+        "bookingTimeTypeTxt": "Booked",
+        "players": [
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "09:10:00",
+        "timeOfDay": 1,
+        "timeOfDayTxt": "Morning",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088463,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 1,
+        "bookingTimeTypeTxt": "Booked",
+        "players": [
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "09:20:00",
+        "timeOfDay": 1,
+        "timeOfDayTxt": "Morning",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088464,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 1,
+        "bookingTimeTypeTxt": "Booked",
+        "players": [
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "09:30:00",
+        "timeOfDay": 1,
+        "timeOfDayTxt": "Morning",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088465,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 1,
+        "bookingTimeTypeTxt": "Booked",
+        "players": [
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "09:40:00",
+        "timeOfDay": 1,
+        "timeOfDayTxt": "Morning",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088466,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 1,
+        "bookingTimeTypeTxt": "Booked",
+        "players": [
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "09:50:00",
+        "timeOfDay": 1,
+        "timeOfDayTxt": "Morning",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088467,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 1,
+        "bookingTimeTypeTxt": "Booked",
+        "players": [
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "10:00:00",
+        "timeOfDay": 1,
+        "timeOfDayTxt": "Morning",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088468,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 1,
+        "bookingTimeTypeTxt": "Booked",
+        "players": [
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "10:10:00",
+        "timeOfDay": 1,
+        "timeOfDayTxt": "Morning",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088469,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 1,
+        "bookingTimeTypeTxt": "Booked",
+        "players": [
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "10:20:00",
+        "timeOfDay": 1,
+        "timeOfDayTxt": "Morning",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088470,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 1,
+        "bookingTimeTypeTxt": "Booked",
+        "players": [
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "10:30:00",
+        "timeOfDay": 1,
+        "timeOfDayTxt": "Morning",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088471,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 1,
+        "bookingTimeTypeTxt": "Booked",
+        "players": [
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "10:40:00",
+        "timeOfDay": 1,
+        "timeOfDayTxt": "Morning",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088472,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 1,
+        "bookingTimeTypeTxt": "Booked",
+        "players": [
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "10:50:00",
+        "timeOfDay": 1,
+        "timeOfDayTxt": "Morning",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088473,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 1,
+        "bookingTimeTypeTxt": "Booked",
+        "players": [
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "11:00:00",
+        "timeOfDay": 1,
+        "timeOfDayTxt": "Morning",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088474,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 1,
+        "bookingTimeTypeTxt": "Booked",
+        "players": [
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "11:10:00",
+        "timeOfDay": 1,
+        "timeOfDayTxt": "Morning",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088475,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 1,
+        "bookingTimeTypeTxt": "Booked",
+        "players": [
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "11:20:00",
+        "timeOfDay": 1,
+        "timeOfDayTxt": "Morning",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088476,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": true,
+        "canQuickBook": true,
+        "allowReservations": true,
+        "bookingTimeType": 0,
+        "bookingTimeTypeTxt": "Available",
+        "players": [
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "11:30:00",
+        "timeOfDay": 1,
+        "timeOfDayTxt": "Morning",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 4,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088477,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": true,
+        "canQuickBook": true,
+        "allowReservations": true,
+        "bookingTimeType": 0,
+        "bookingTimeTypeTxt": "Available",
+        "players": [
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "11:40:00",
+        "timeOfDay": 1,
+        "timeOfDayTxt": "Morning",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 4,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088478,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": true,
+        "canQuickBook": true,
+        "allowReservations": true,
+        "bookingTimeType": 0,
+        "bookingTimeTypeTxt": "Available",
+        "players": [
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "11:50:00",
+        "timeOfDay": 1,
+        "timeOfDayTxt": "Morning",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 4,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088479,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": true,
+        "canQuickBook": true,
+        "allowReservations": true,
+        "bookingTimeType": 0,
+        "bookingTimeTypeTxt": "Available",
+        "players": [
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "12:00:00",
+        "timeOfDay": 2,
+        "timeOfDayTxt": "Afternoon",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 4,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088480,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 1,
+        "bookingTimeTypeTxt": "Booked",
+        "players": [
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "12:10:00",
+        "timeOfDay": 2,
+        "timeOfDayTxt": "Afternoon",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088481,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 1,
+        "bookingTimeTypeTxt": "Booked",
+        "players": [
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "12:20:00",
+        "timeOfDay": 2,
+        "timeOfDayTxt": "Afternoon",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088482,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": true,
+        "canQuickBook": true,
+        "allowReservations": true,
+        "bookingTimeType": 0,
+        "bookingTimeTypeTxt": "Available",
+        "players": [
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "12:30:00",
+        "timeOfDay": 2,
+        "timeOfDayTxt": "Afternoon",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 1,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088483,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 1,
+        "bookingTimeTypeTxt": "Booked",
+        "players": [
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "12:40:00",
+        "timeOfDay": 2,
+        "timeOfDayTxt": "Afternoon",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088484,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": true,
+        "canQuickBook": true,
+        "allowReservations": true,
+        "bookingTimeType": 0,
+        "bookingTimeTypeTxt": "Available",
+        "players": [
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "12:50:00",
+        "timeOfDay": 2,
+        "timeOfDayTxt": "Afternoon",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 4,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088485,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 1,
+        "bookingTimeTypeTxt": "Booked",
+        "players": [
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "13:00:00",
+        "timeOfDay": 2,
+        "timeOfDayTxt": "Afternoon",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088486,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 1,
+        "bookingTimeTypeTxt": "Booked",
+        "players": [
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "13:10:00",
+        "timeOfDay": 2,
+        "timeOfDayTxt": "Afternoon",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088487,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 1,
+        "bookingTimeTypeTxt": "Booked",
+        "players": [
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "13:20:00",
+        "timeOfDay": 2,
+        "timeOfDayTxt": "Afternoon",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088488,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 1,
+        "bookingTimeTypeTxt": "Booked",
+        "players": [
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "13:30:00",
+        "timeOfDay": 2,
+        "timeOfDayTxt": "Afternoon",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088489,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": true,
+        "canQuickBook": true,
+        "allowReservations": true,
+        "bookingTimeType": 0,
+        "bookingTimeTypeTxt": "Available",
+        "players": [
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "13:40:00",
+        "timeOfDay": 2,
+        "timeOfDayTxt": "Afternoon",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 2,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088490,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": true,
+        "canQuickBook": true,
+        "allowReservations": true,
+        "bookingTimeType": 0,
+        "bookingTimeTypeTxt": "Available",
+        "players": [
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "13:50:00",
+        "timeOfDay": 2,
+        "timeOfDayTxt": "Afternoon",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 4,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088491,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": true,
+        "canQuickBook": true,
+        "allowReservations": true,
+        "bookingTimeType": 0,
+        "bookingTimeTypeTxt": "Available",
+        "players": [
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "14:00:00",
+        "timeOfDay": 2,
+        "timeOfDayTxt": "Afternoon",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 1,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088492,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": true,
+        "canQuickBook": true,
+        "allowReservations": true,
+        "bookingTimeType": 0,
+        "bookingTimeTypeTxt": "Available",
+        "players": [
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "14:10:00",
+        "timeOfDay": 2,
+        "timeOfDayTxt": "Afternoon",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 2,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088493,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": true,
+        "canQuickBook": true,
+        "allowReservations": true,
+        "bookingTimeType": 0,
+        "bookingTimeTypeTxt": "Available",
+        "players": [
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "14:20:00",
+        "timeOfDay": 2,
+        "timeOfDayTxt": "Afternoon",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 4,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088494,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": true,
+        "canQuickBook": true,
+        "allowReservations": true,
+        "bookingTimeType": 0,
+        "bookingTimeTypeTxt": "Available",
+        "players": [
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "14:30:00",
+        "timeOfDay": 2,
+        "timeOfDayTxt": "Afternoon",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 4,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088495,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 1,
+        "bookingTimeTypeTxt": "Booked",
+        "players": [
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "14:40:00",
+        "timeOfDay": 2,
+        "timeOfDayTxt": "Afternoon",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088496,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": true,
+        "canQuickBook": true,
+        "allowReservations": true,
+        "bookingTimeType": 0,
+        "bookingTimeTypeTxt": "Available",
+        "players": [
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "14:50:00",
+        "timeOfDay": 2,
+        "timeOfDayTxt": "Afternoon",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 4,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088497,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": true,
+        "canQuickBook": true,
+        "allowReservations": true,
+        "bookingTimeType": 0,
+        "bookingTimeTypeTxt": "Available",
+        "players": [
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "15:00:00",
+        "timeOfDay": 2,
+        "timeOfDayTxt": "Afternoon",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 4,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088498,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": true,
+        "canQuickBook": true,
+        "allowReservations": true,
+        "bookingTimeType": 0,
+        "bookingTimeTypeTxt": "Available",
+        "players": [
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "15:10:00",
+        "timeOfDay": 2,
+        "timeOfDayTxt": "Afternoon",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 4,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088499,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 1,
+        "bookingTimeTypeTxt": "Booked",
+        "players": [
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "15:20:00",
+        "timeOfDay": 2,
+        "timeOfDayTxt": "Afternoon",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088500,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 1,
+        "bookingTimeTypeTxt": "Booked",
+        "players": [
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "15:30:00",
+        "timeOfDay": 2,
+        "timeOfDayTxt": "Afternoon",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088501,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 1,
+        "bookingTimeTypeTxt": "Booked",
+        "players": [
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "15:40:00",
+        "timeOfDay": 2,
+        "timeOfDayTxt": "Afternoon",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088502,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": true,
+        "canQuickBook": true,
+        "allowReservations": true,
+        "bookingTimeType": 0,
+        "bookingTimeTypeTxt": "Available",
+        "players": [
+          {
+            "playerType": 5,
+            "playerTypeTxt": "Guest",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 4,
+            "playerTypeTxt": "Member",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          },
+          {
+            "playerType": 1,
+            "playerTypeTxt": "Available",
+            "playerLabel": ""
+          }
+        ],
+        "teeTime": "15:50:00",
+        "timeOfDay": 2,
+        "timeOfDayTxt": "Afternoon",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 2,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 120.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088503,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 2,
+        "bookingTimeTypeTxt": "Blocked",
+        "players": [
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          }
+        ],
+        "teeTime": "16:00:00",
+        "timeOfDay": 2,
+        "timeOfDayTxt": "Afternoon",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 85.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088504,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 2,
+        "bookingTimeTypeTxt": "Blocked",
+        "players": [
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          }
+        ],
+        "teeTime": "16:10:00",
+        "timeOfDay": 2,
+        "timeOfDayTxt": "Afternoon",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 85.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088505,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 2,
+        "bookingTimeTypeTxt": "Blocked",
+        "players": [
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          }
+        ],
+        "teeTime": "16:20:00",
+        "timeOfDay": 2,
+        "timeOfDayTxt": "Afternoon",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 85.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088506,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 2,
+        "bookingTimeTypeTxt": "Blocked",
+        "players": [
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          }
+        ],
+        "teeTime": "16:30:00",
+        "timeOfDay": 2,
+        "timeOfDayTxt": "Afternoon",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 85.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088507,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 2,
+        "bookingTimeTypeTxt": "Blocked",
+        "players": [
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          }
+        ],
+        "teeTime": "16:40:00",
+        "timeOfDay": 2,
+        "timeOfDayTxt": "Afternoon",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 85.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088508,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 2,
+        "bookingTimeTypeTxt": "Blocked",
+        "players": [
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          }
+        ],
+        "teeTime": "16:50:00",
+        "timeOfDay": 2,
+        "timeOfDayTxt": "Afternoon",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 85.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088509,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 2,
+        "bookingTimeTypeTxt": "Blocked",
+        "players": [
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          }
+        ],
+        "teeTime": "17:00:00",
+        "timeOfDay": 3,
+        "timeOfDayTxt": "Evening",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 85.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088510,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 2,
+        "bookingTimeTypeTxt": "Blocked",
+        "players": [
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          }
+        ],
+        "teeTime": "17:10:00",
+        "timeOfDay": 3,
+        "timeOfDayTxt": "Evening",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 85.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088511,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 2,
+        "bookingTimeTypeTxt": "Blocked",
+        "players": [
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          }
+        ],
+        "teeTime": "17:20:00",
+        "timeOfDay": 3,
+        "timeOfDayTxt": "Evening",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 85.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088512,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 2,
+        "bookingTimeTypeTxt": "Blocked",
+        "players": [
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          }
+        ],
+        "teeTime": "17:30:00",
+        "timeOfDay": 3,
+        "timeOfDayTxt": "Evening",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 85.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088513,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 2,
+        "bookingTimeTypeTxt": "Blocked",
+        "players": [
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          }
+        ],
+        "teeTime": "17:40:00",
+        "timeOfDay": 3,
+        "timeOfDayTxt": "Evening",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 85.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088514,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 2,
+        "bookingTimeTypeTxt": "Blocked",
+        "players": [
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          }
+        ],
+        "teeTime": "17:50:00",
+        "timeOfDay": 3,
+        "timeOfDayTxt": "Evening",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 85.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088515,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 2,
+        "bookingTimeTypeTxt": "Blocked",
+        "players": [
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          }
+        ],
+        "teeTime": "18:00:00",
+        "timeOfDay": 3,
+        "timeOfDayTxt": "Evening",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 65.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088516,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 2,
+        "bookingTimeTypeTxt": "Blocked",
+        "players": [
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          }
+        ],
+        "teeTime": "18:10:00",
+        "timeOfDay": 3,
+        "timeOfDayTxt": "Evening",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 65.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088517,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 2,
+        "bookingTimeTypeTxt": "Blocked",
+        "players": [
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          }
+        ],
+        "teeTime": "18:20:00",
+        "timeOfDay": 3,
+        "timeOfDayTxt": "Evening",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 65.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088518,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 2,
+        "bookingTimeTypeTxt": "Blocked",
+        "players": [
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          }
+        ],
+        "teeTime": "18:30:00",
+        "timeOfDay": 3,
+        "timeOfDayTxt": "Evening",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 65.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088519,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 2,
+        "bookingTimeTypeTxt": "Blocked",
+        "players": [
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          }
+        ],
+        "teeTime": "18:40:00",
+        "timeOfDay": 3,
+        "timeOfDayTxt": "Evening",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 65.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088520,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 2,
+        "bookingTimeTypeTxt": "Blocked",
+        "players": [
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Twilight"
+          }
+        ],
+        "teeTime": "18:50:00",
+        "timeOfDay": 3,
+        "timeOfDayTxt": "Evening",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 65.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088521,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 2,
+        "bookingTimeTypeTxt": "Blocked",
+        "players": [
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Closed"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Closed"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Closed"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Closed"
+          }
+        ],
+        "teeTime": "19:00:00",
+        "timeOfDay": 3,
+        "timeOfDayTxt": "Evening",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 65.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088522,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 2,
+        "bookingTimeTypeTxt": "Blocked",
+        "players": [
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Closed"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Closed"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Closed"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Closed"
+          }
+        ],
+        "teeTime": "19:10:00",
+        "timeOfDay": 3,
+        "timeOfDayTxt": "Evening",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 65.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088523,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 2,
+        "bookingTimeTypeTxt": "Blocked",
+        "players": [
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Closed"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Closed"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Closed"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Closed"
+          }
+        ],
+        "teeTime": "19:20:00",
+        "timeOfDay": 3,
+        "timeOfDayTxt": "Evening",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 65.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088524,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 2,
+        "bookingTimeTypeTxt": "Blocked",
+        "players": [
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Closed"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Closed"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Closed"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Closed"
+          }
+        ],
+        "teeTime": "19:30:00",
+        "timeOfDay": 3,
+        "timeOfDayTxt": "Evening",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 65.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088525,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 2,
+        "bookingTimeTypeTxt": "Blocked",
+        "players": [
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Closed"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Closed"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Closed"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Closed"
+          }
+        ],
+        "teeTime": "19:40:00",
+        "timeOfDay": 3,
+        "timeOfDayTxt": "Evening",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 65.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088526,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 2,
+        "bookingTimeTypeTxt": "Blocked",
+        "players": [
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Closed"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Closed"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Closed"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Closed"
+          }
+        ],
+        "teeTime": "19:50:00",
+        "timeOfDay": 3,
+        "timeOfDayTxt": "Evening",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 65.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      },
+      {
+        "teeSheetTimeId": 129088527,
+        "availableToClubNetwork": false,
+        "availableToGlobalNetwork": false,
+        "availableToMembers": false,
+        "availableToPublic": true,
+        "eighteenAllowed": true,
+        "nineAllowed": true,
+        "hole": "1",
+        "isBookable": false,
+        "canQuickBook": false,
+        "allowReservations": true,
+        "bookingTimeType": 2,
+        "bookingTimeTypeTxt": "Blocked",
+        "players": [
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Closed"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Closed"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Closed"
+          },
+          {
+            "playerType": 6,
+            "playerTypeTxt": "Blocked",
+            "playerLabel": "Closed"
+          }
+        ],
+        "teeTime": "20:00:00",
+        "timeOfDay": 3,
+        "timeOfDayTxt": "Evening",
+        "processed": false,
+        "lotteryRequests": 0,
+        "isTournament": false,
+        "tournamentDetails": null,
+        "availPlayers": 0,
+        "lockedBy": 0,
+        "lockedUntil": null,
+        "lotteryEndTime": "00:00:00",
+        "cartCost": 0.00,
+        "playerCost": 65.00,
+        "allowJoinUs": false,
+        "teeSheetBank": {
+          "bankId": 2031948,
+          "bankNumber": 1,
+          "numberOfHoles": 18,
+          "teeSheetKey": {
+            "course": "Upper Unionville Golf Club",
+            "courseId": 1258,
+            "dateOfAvailability": "2026-06-10T06:00:00",
+            "dateOfAvailabilityJS": "Wed 10 Jun 2026 06:00:00 UTC-0000",
+            "dateNoLongerAvailable": null,
+            "dateNoLongerAvailableJS": null,
+            "maxPlayers": 4,
+            "tbdExpiration": null
+          }
+        }
+      }
+    ]
+  },
+  "result": false
+}
