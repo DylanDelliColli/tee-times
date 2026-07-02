@@ -1,6 +1,7 @@
 import type { Slot } from "../core/slot.js";
 import { COURSES, getCourse, type CourseEntry } from "../core/courses.js";
 import { MISS, type AvailabilityStore } from "../store/store.js";
+import { isDeepLinkOnlyBackend } from "../adapters/ezlinks.js";
 
 /**
  * The user-facing SEARCH / MERGE / RANK read path (tee-times-7y9).
@@ -121,7 +122,9 @@ export function search(query: SearchQuery, store: AvailabilityStore, opts: Searc
   for (const entry of scopeCourses) {
     // Deep-link-only BACKENDS (e.g. EZLinks, Cloudflare-blocked) are never
     // live-scraped by design, regardless of what the store holds for them.
-    if (entry.backend === "ezlinks") {
+    // See src/adapters/ezlinks.ts for why this is a shared predicate rather
+    // than a hardcoded backend-string check.
+    if (isDeepLinkOnlyBackend(entry.backend)) {
       courses.push(deepLinkStatus(entry));
       continue;
     }

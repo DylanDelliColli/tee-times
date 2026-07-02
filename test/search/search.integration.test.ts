@@ -8,6 +8,7 @@ import { SqliteAvailabilityStore } from "../../src/store/sqlite-store.js";
 import type { AvailabilityStore, CoursePollTarget, DiffSnapshots, GetSlotsResult } from "../../src/store/store.js";
 import type { Slot } from "../../src/core/slot.js";
 import { search } from "../../src/search/search.js";
+import { getCourse } from "../../src/core/courses.js";
 
 function makeSlot(overrides: Partial<Slot> = {}): Slot {
   return {
@@ -173,6 +174,10 @@ describe("search (integration, real file-backed SqliteAvailabilityStore)", () =>
     expect(result.courses.map((c) => c.state)).toEqual(["deep-link-only", "deep-link-only"]);
     for (const status of result.courses) {
       expect(status.deepLinkUrl).toBeTruthy();
+      // tee-times-3rj: deepLinkUrl must be the course's REAL registry
+      // bookingUrl, not just a truthy placeholder — never live-polled either
+      // (proven above via calls.putSnapshot/listCoursesToPoll === 0).
+      expect(status.deepLinkUrl).toBe(getCourse(status.courseId)!.bookingUrl);
     }
   });
 });

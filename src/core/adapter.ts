@@ -20,11 +20,18 @@ export interface TeeOnRef {
   courseGroupId: string;
 }
 
-/** EZLinks backend course reference. */
+/**
+ * EZLinks backend course reference. `facilityId` is OPTIONAL: EZLinks is
+ * formalized as deep-link-only (tee-times-3rj, locked by tee-times-tt6) and
+ * is never live-scraped, so no code ever reads facilityId to build a scrape
+ * request. It is kept only as a place to record the value if it's ever
+ * discovered incidentally (e.g. from a future non-scraping source) — see
+ * src/adapters/ezlinks.ts for the deep-link-only formalization.
+ */
 export interface EzlinksRef {
   backend: "ezlinks";
   subdomain: string;
-  facilityId: string;
+  facilityId?: string;
 }
 
 /** Chronogolf backend course reference. */
