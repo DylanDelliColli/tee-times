@@ -1,0 +1,7 @@
+{
+  "database": "dolt",
+  "backend": "dolt",
+  "dolt_mode": "embedded",
+  "dolt_database": "tee_times",
+  "project_id": "bca149d3-beaf-4b91-8c23-9e9252676758"
+}
