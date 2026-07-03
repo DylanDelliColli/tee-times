@@ -292,6 +292,40 @@ describe("search (unit, in-memory sqlite store)", () => {
     });
   });
 
+  describe("unknown courseId in query.courseIds", () => {
+    it("a typo'd/stale courseId yields an explicit unknown-course status row, not omission", () => {
+      const store = makeStore();
+      store.putSnapshot("lowville", "2026-07-15", [makeSlot({ courseId: "lowville", time: "08:00" })], 1000);
+
+      const result = search({ date: "2026-07-15", courseIds: ["lowville", "no-such-course"] }, store);
+
+      expect(result.slots).toHaveLength(1);
+      expect(result.slots[0]?.courseId).toBe("lowville");
+
+      expect(result.courses).toHaveLength(2);
+      const unknown = result.courses.find((c) => c.courseId === "no-such-course");
+      expect(unknown).toBeDefined();
+      expect(unknown?.state).toBe("unknown-course");
+      expect(unknown?.deepLinkUrl).toBeUndefined();
+
+      const lowvilleStatus = result.courses.find((c) => c.courseId === "lowville");
+      expect(lowvilleStatus?.state).toBe("healthy");
+    });
+
+    it("a query with ONLY unknown courseIds yields unknown-course rows and no slots, not an error", () => {
+      const store = makeStore();
+
+      const result = search({ date: "2026-07-15", courseIds: ["bogus-1", "bogus-2"] }, store);
+
+      expect(result.slots).toEqual([]);
+      expect(result.courses).toHaveLength(2);
+      for (const status of result.courses) {
+        expect(status.state).toBe("unknown-course");
+      }
+      expect(result.courses.map((c) => c.courseId).sort()).toEqual(["bogus-1", "bogus-2"]);
+    });
+  });
+
   describe("bad query shape", () => {
     it("throws when neither date nor dateRange is given", () => {
       const store = makeStore();
