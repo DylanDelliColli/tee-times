@@ -193,4 +193,36 @@ describe("RateLimiter — 403/captcha HARD-STOP (Bright Line)", () => {
     expect(r.status).toBe("ok");
     expect(fn).toHaveBeenCalledTimes(1);
   });
+
+  it("hard-stop rolls off at course-local midnight not UTC (tee-times-r9j)", async () => {
+    // All 16 courses are Toronto-area; the hard-stop's "rest of the calendar
+    // day" must mean the course-LOCAL day, not the UTC day. America/Toronto is
+    // EST (UTC-5, no DST) in January, so local midnight is UTC 05:00.
+    const h = harness({ timeZone: "America/Toronto" });
+
+    // Local 2026-01-14T00:30 EST == UTC 2026-01-14T05:30.
+    h.setClock(Date.UTC(2026, 0, 14, 5, 30, 0));
+    await h.limiter.run("tei-unify", "glen-abbey", async () => {
+      throw blockedError();
+    });
+    expect(h.limiter.isSuppressed("tei-unify")).toBe(true);
+
+    // Local 2026-01-14T19:30 EST == UTC 2026-01-15T00:30 — the UTC calendar
+    // day has already rolled over to the 15th, but locally it's still the
+    // evening of the 14th (5.5h before local midnight). A UTC-day-boundary
+    // implementation would incorrectly lift the hard-stop here; a
+    // course-local implementation must NOT.
+    h.setClock(Date.UTC(2026, 0, 15, 0, 30, 0));
+    expect(h.limiter.isSuppressed("tei-unify")).toBe(true);
+
+    // Local 2026-01-15T00:30 EST == UTC 2026-01-15T05:30 — local midnight has
+    // now actually passed. The hard-stop must roll off here.
+    h.setClock(Date.UTC(2026, 0, 15, 5, 30, 0));
+    expect(h.limiter.isSuppressed("tei-unify")).toBe(false);
+
+    const fn = vi.fn(async () => "SLOTS");
+    const r = await h.limiter.run("tei-unify", "glen-abbey", fn);
+    expect(r.status).toBe("ok");
+    expect(fn).toHaveBeenCalledTimes(1);
+  });
 });

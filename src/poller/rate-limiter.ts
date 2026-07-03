@@ -19,10 +19,20 @@ import { AdapterError } from "../core/errors.js";
  */
 
 const HOUR_MS = 60 * 60 * 1000;
-const DAY_MS = 24 * 60 * 60 * 1000;
 
 /** Default polite ceiling: at most 4 requests per course per rolling hour. */
 export const DEFAULT_MAX_REQUESTS_PER_HOUR = 4;
+
+/**
+ * Default IANA time zone for the 403/captcha same-day hard-stop's calendar-day
+ * boundary. All 16 courses in the registry (src/core/courses.ts) are
+ * Toronto-area, so this is the sane default — but it is threaded through as a
+ * constructor parameter (see {@link RateLimiterConfig.timeZone}), never
+ * hardcoded inside the day-boundary computation itself, so a future
+ * per-course/per-backend registry field can override it without touching this
+ * module's internals.
+ */
+export const DEFAULT_TIME_ZONE = "America/Toronto";
 
 /**
  * Default exponential backoff schedule (ms) applied on successive 429s within a
@@ -73,6 +83,16 @@ export interface RateLimiterConfig {
   maxRequestsPerHour?: number;
   /** Exponential backoff schedule (ms) for 429s. Default {@link DEFAULT_BACKOFF_SCHEDULE_MS}. */
   backoffScheduleMs?: readonly number[];
+  /**
+   * IANA time zone (e.g. "America/Toronto") used to compute the course-local
+   * calendar-day boundary for the 403/captcha hard-stop (THE BRIGHT LINE:
+   * "HARD-STOP that backend for the rest of the calendar day"). Threaded
+   * through as a parameter rather than hardcoded so it can be set
+   * per-course/per-backend by the caller (e.g. one RateLimiter per backend,
+   * each constructed with that backend's course-local tz). Default
+   * {@link DEFAULT_TIME_ZONE}.
+   */
+  timeZone?: string;
 }
 
 /**
@@ -103,15 +123,19 @@ export type LimiterOutcome<T> =
 export class RateLimiter {
   readonly maxRequestsPerHour: number;
   readonly backoffScheduleMs: readonly number[];
+  /** IANA tz used for the hard-stop's course-local calendar-day boundary. */
+  readonly timeZone: string;
 
   private readonly now: () => number;
   private readonly sleep: (ms: number) => Promise<void>;
   private readonly jitter: () => number;
+  /** Cached formatter for {@link localDayKey}, bound to `this.timeZone`. */
+  private readonly dayKeyFormatter: Intl.DateTimeFormat;
 
   /** courseId -> epoch-ms timestamps of outbound requests within the rolling hour. */
   private readonly requestTimes = new Map<string, number[]>();
-  /** backendId -> day index (floor(now/DAY_MS)) on which it was hard-stopped. */
-  private readonly hardStopDay = new Map<BackendId, number>();
+  /** backendId -> course-local "YYYY-MM-DD" day key on which it was hard-stopped. */
+  private readonly hardStopDay = new Map<BackendId, string>();
 
   /** Serial queue tail: every run() chains off this so requests never overlap. */
   private tail: Promise<unknown> = Promise.resolve();
@@ -122,26 +146,39 @@ export class RateLimiter {
     this.jitter = deps.jitter;
     this.maxRequestsPerHour = config.maxRequestsPerHour ?? DEFAULT_MAX_REQUESTS_PER_HOUR;
     this.backoffScheduleMs = config.backoffScheduleMs ?? DEFAULT_BACKOFF_SCHEDULE_MS;
+    this.timeZone = config.timeZone ?? DEFAULT_TIME_ZONE;
+    // en-CA formats as YYYY-MM-DD, which sorts/compares correctly as a string
+    // and is immune to fixed-offset DST bugs: the formatter derives the
+    // wall-clock Y-M-D directly from the IANA tz database for `this.timeZone`,
+    // so the "day" it reports is whatever that zone's local calendar says —
+    // no manual +/-N hour arithmetic that would drift across a DST transition.
+    this.dayKeyFormatter = new Intl.DateTimeFormat("en-CA", {
+      timeZone: this.timeZone,
+      year: "numeric",
+      month: "2-digit",
+      day: "2-digit",
+    });
   }
 
-  /** The calendar-day index for a clock value (UTC day boundary from the injected clock). */
-  private dayIndex(nowMs: number): number {
-    return Math.floor(nowMs / DAY_MS);
+  /** The course-local ("this.timeZone") calendar-day key for a clock value, e.g. "2026-07-03". */
+  private localDayKey(nowMs: number): string {
+    return this.dayKeyFormatter.format(new Date(nowMs));
   }
 
   /**
    * True if `backendId` has been hard-stopped (403/captcha) earlier on the
-   * current calendar day. Rolls off automatically once the clock crosses into
-   * the next day.
+   * current COURSE-LOCAL calendar day (THE BRIGHT LINE: "rest of the calendar
+   * day", not the UTC day). Rolls off automatically once the clock crosses
+   * local midnight in `this.timeZone`.
    */
   isSuppressed(backendId: BackendId): boolean {
     const day = this.hardStopDay.get(backendId);
-    return day !== undefined && day === this.dayIndex(this.now());
+    return day !== undefined && day === this.localDayKey(this.now());
   }
 
-  /** Arm the per-backend, same-day hard-stop. Bright Line: no retry-through, no rotation. */
+  /** Arm the per-backend, same-local-day hard-stop. Bright Line: no retry-through, no rotation. */
   private armHardStop(backendId: BackendId): void {
-    this.hardStopDay.set(backendId, this.dayIndex(this.now()));
+    this.hardStopDay.set(backendId, this.localDayKey(this.now()));
   }
 
   /** Drop request timestamps older than the rolling hour, return the survivors. */
