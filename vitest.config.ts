@@ -11,7 +11,12 @@ export default defineConfig({
   // makes vitest's JSX handling independent of that file entirely, so `next
   // build` and `vitest run` can coexist without fighting over the same
   // tsconfig.json.
-  esbuild: {
+  // Vite/Vitest 4 switched the default transform pipeline from esbuild to
+  // oxc (rolldown-oxc). oxc silently wins over `esbuild` options when both
+  // are set (with a warning), so the equivalent JSX setting must move to
+  // `oxc.jsx` to keep automatic-runtime JSX independent of tsconfig.json's
+  // "jsx" setting for the reasons explained above.
+  oxc: {
     jsx: "automatic",
   },
   test: {
