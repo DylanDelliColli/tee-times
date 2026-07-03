@@ -62,8 +62,15 @@ export interface SearchQuery {
  *                       MISS for every date in scope (nothing ever polled, or
  *                       the errored/absent case). The course is surfaced with
  *                       a deep link, never dropped from the result.
+ * - "unknown-course"  : the courseId was not found in the registry at all
+ *                       (typo'd / stale id in query.courseIds). Surfaced
+ *                       explicitly (tee-times-ae3) rather than silently
+ *                       dropped, so the UI/caller can distinguish "no such
+ *                       course" from "course legitimately has no
+ *                       availability". Added additively so any exhaustive
+ *                       switch over CourseState elsewhere must be updated.
  */
-export type CourseState = "healthy" | "stale" | "deep-link-only";
+export type CourseState = "healthy" | "stale" | "deep-link-only" | "unknown-course";
 
 /** One course's status row, alongside the merged slot list, for the UI to render. */
 export interface CourseStatus {
@@ -123,11 +130,18 @@ export interface SearchResult {
  */
 export function search(query: SearchQuery, store: AvailabilityStore, opts: SearchOptions = {}): SearchResult {
   const dates = resolveDates(query);
-  const scopeCourses = resolveScopeCourses(query.courseIds);
+  const { entries: scopeCourses, unknownIds } = resolveScopeCourses(query.courseIds);
   const preferredWindows = opts.preferredWindows ?? DEFAULT_PREFERRED_WINDOWS;
 
   const mergedSlots: Slot[] = [];
   const courses: CourseStatus[] = [];
+
+  // tee-times-ae3: unresolved courseIds (typo'd / stale ids) are surfaced
+  // explicitly rather than silently dropped, so callers can distinguish
+  // "no such course" from "course legitimately has no availability".
+  for (const id of unknownIds) {
+    courses.push(unknownCourseStatus(id));
+  }
 
   for (const entry of scopeCourses) {
     // Deep-link-only BACKENDS (e.g. EZLinks, Cloudflare-blocked) are never
@@ -239,19 +253,27 @@ function enumerateDates(start: string, end: string): string[] {
   return dates;
 }
 
-/** All registry courses, or the subset named by query.courseIds (unknown ids are silently skipped). */
-function resolveScopeCourses(courseIds?: string[]): CourseEntry[] {
+/**
+ * All registry courses, or the subset named by query.courseIds. Unknown ids
+ * (not found via getCourse) are returned separately in `unknownIds` rather
+ * than silently dropped (tee-times-ae3), so the caller can surface an
+ * explicit unknown-course CourseStatus row for each one.
+ */
+function resolveScopeCourses(courseIds?: string[]): { entries: CourseEntry[]; unknownIds: string[] } {
   if (!courseIds) {
-    return COURSES;
+    return { entries: COURSES, unknownIds: [] };
   }
-  const result: CourseEntry[] = [];
+  const entries: CourseEntry[] = [];
+  const unknownIds: string[] = [];
   for (const id of courseIds) {
     const entry = getCourse(id);
     if (entry) {
-      result.push(entry);
+      entries.push(entry);
+    } else {
+      unknownIds.push(id);
     }
   }
-  return result;
+  return { entries, unknownIds };
 }
 
 /** Builds a deep-link-only CourseStatus row for a course, from the registry's canonical booking-page URL. */
@@ -261,6 +283,19 @@ function deepLinkStatus(entry: CourseEntry): CourseStatus {
     displayName: entry.displayName,
     state: "deep-link-only",
     deepLinkUrl: entry.bookingUrl,
+  };
+}
+
+/**
+ * Builds an unknown-course CourseStatus row for a courseId that failed to
+ * resolve via getCourse() (typo'd / stale id in query.courseIds). There is no
+ * registry entry to source a displayName from, so the raw id is reused.
+ */
+function unknownCourseStatus(courseId: string): CourseStatus {
+  return {
+    courseId,
+    displayName: courseId,
+    state: "unknown-course",
   };
 }
 

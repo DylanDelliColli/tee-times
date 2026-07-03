@@ -171,6 +171,25 @@ describe("search (integration, real file-backed SqliteAvailabilityStore)", () =>
     expect(source).not.toMatch(/\.listSlots\(/);
   });
 
+  it("unknown courseId in query.courseIds surfaces an explicit unknown-course status against a real store, not a silent drop", () => {
+    freshDbPath();
+    const store = openStore();
+    const date = "2026-07-15";
+
+    store.putSnapshot("lowville", date, [makeSlot({ courseId: "lowville", time: "08:00" })], NOW);
+
+    const result = search({ date, courseIds: ["lowville", "not-a-real-course-id"] }, store);
+
+    expect(result.slots.map((s) => s.courseId)).toEqual(["lowville"]);
+
+    expect(result.courses).toHaveLength(2);
+    const byId = Object.fromEntries(result.courses.map((c) => [c.courseId, c]));
+    expect(byId.lowville?.state).toBe("healthy");
+    expect(byId["not-a-real-course-id"]?.state).toBe("unknown-course");
+    expect(byId["not-a-real-course-id"]?.deepLinkUrl).toBeUndefined();
+    expect(byId["not-a-real-course-id"]?.fetchedAt).toBeUndefined();
+  });
+
   it("all-degraded across real store + registry: both EZLinks courses come back deep-link-only with an empty slot list", () => {
     freshDbPath();
     const store = openStore();
